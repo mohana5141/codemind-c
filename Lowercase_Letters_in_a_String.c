@@ -1,15 +1,15 @@
 #include <stdio.h>
 int main()
 {
-    char str[100];
-    scanf("%[^
-]%c",&str);
-    int i,lwr=0;
-    for(i=0;str[i]!=NULL;i++){
-        if(str[i]>='a'&& str[i]<='z'){
-            lwr++;
-        }
-    }
+   char s[100];
+   scanf("%[^
+]%c",&s);
+   int i,lwr=0;
+   for(i=0;s[i]!=NULL;i++){
+       if(s[i]>='a' && s[i]<='z'){
+           lwr++;
+       }
+   }
     printf("%d",lwr);
     
     
